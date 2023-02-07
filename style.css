@@ -9,43 +9,44 @@ body {
 }
 
 main {
-    padding-bottom: 1%;
+    padding-bottom: 20px;
 }
 
 h1 {
     text-align: center;
     color: white;
+    font-size: 50px;
 }
 
 h2 {
     text-align: justify;
-    color: #3e3ec5;
+    color: #3737d1;
+    font-size: 25px;
 }
 
 p {
     text-align: justify;
     font-weight: lighter;
     color: black;
+    font-size: 17px;
 }
 
 article {
     border: 2px solid #424246;
-    margin: 1% 5% 1% 5%;
-    width: 84%;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
     padding: 30px;
     border-radius: 10px;
     background-color: #f9f1f1;
     color: white;
 }
 
-article:focus {
-    
-}
-
 form {
     border: 2px solid #424246;
-    margin: 1% 5% 1% 5%;
-    width: 84%;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
     padding: 30px;
     border-radius: 10px;
     padding-bottom: 50px;
@@ -72,8 +73,10 @@ button {
 
 #h2-form {
     text-align: center;
+    font-size: 25px;
 }
 
 #p-form {
     text-align: center;
+    font-size: 17px;
 }
