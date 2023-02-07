@@ -1,4 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
-    padding: 0;
-    margin: 0;
+    align-content: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-image: url("img/blackground");
+    background-size: auto;
+}
+
+main {
+    padding-bottom: 1%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: justify;
+    color: #3e3ec5;
+}
+
+p {
+    text-align: justify;
+    font-weight: lighter;
+    color: black;
+}
+
+article {
+    border: 2px solid #424246;
+    margin: 1% 5% 1% 5%;
+    width: 84%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f9f1f1;
+    color: white;
+}
+
+article:focus {
+    
+}
+
+form {
+    border: 2px solid #424246;
+    margin: 1% 5% 1% 5%;
+    width: 84%;
+    padding: 30px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #f9f1f1;
+    color: white;
+}
+
+label {
+    color: black;
+    font-weight: lighter;
+}
+
+input {
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #424246;
+    border-radius: 5px;
+    color: white;
+}
+
+#h2-form {
+    text-align: center;
+}
+
+#p-form {
+    text-align: center;
 }
