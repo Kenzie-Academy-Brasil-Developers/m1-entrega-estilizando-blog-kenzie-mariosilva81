@@ -12,10 +12,6 @@ main {
     padding-bottom: 20px;
 }
 
-figure {
-    
-}
-
 h1 {
     text-align: center;
     color: white;
@@ -33,6 +29,10 @@ p {
     font-weight: lighter;
     color: black;
     font-size: 17px;
+}
+
+cite {
+    font-size: 15px;
 }
 
 article {
@@ -67,6 +67,7 @@ label {
 input {
     border-radius: 5px;
     text-align: center;
+    width: 200px;
 }
 
 button {
